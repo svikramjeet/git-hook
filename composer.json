@@ -13,15 +13,12 @@
     },
     "authors": [
         {
-            "name": "Vikram",
+            "name": "svikramjeet",
             "email": "vikkramjeet@gmai.com",
             "homepage": "http://svikramjeet.me",
             "role": "creator"
         }
     ],
     "autoload": {
-        "psr-4": {
-             "svikramjeet\\": "src/"
-        }
     }
 }
