@@ -4,7 +4,7 @@
     "description": "A simple pre commit git file ",
     "keywords": ["php", "git", "pre commit", "hook"],
     "homepage": "https://github.com/svikramjeet/git-hook",
-    "license":"GMSC",
+    "license":"MIT",
     "require": {
         "php": ">5.3"
     },
