@@ -1,0 +1,7 @@
+composer.phar
+vendor/
+*.iml
+## Directory-based project format:
+.idea/
+atlassian-ide-plugin.xml
+

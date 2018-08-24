@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+echo "Running pre-commit hook"
+./.deploy/pre_commit.sh
+# $? stores exit value of the last command
+if [ $? -ne 0 ]; then
+ echo "Please Fix errors before commit"
+ exit 1
+fi

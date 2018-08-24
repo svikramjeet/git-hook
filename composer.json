@@ -1,0 +1,27 @@
+{
+    "name": "svikramjeet/git-hook",
+    "type": "library",
+    "description": "A simple pre commit git file ",
+    "keywords": ["php", "git", "pre commit", "hook"],
+    "homepage": "https://github.com/svikramjeet/git-hook",
+    "license":"GMSC",
+    "require": {
+        "php": ">5.3"
+    },
+    "require-dev": {
+        "php": ">5.3"
+    },
+    "authors": [
+        {
+            "name": "Vikram",
+            "email": "vikkramjeet@gmai.com",
+            "homepage": "http://svikramjeet.me",
+            "role": "creator"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+             "svikramjeet\\": "src/"
+        }
+    }
+}
